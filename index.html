@@ -2318,6 +2318,7 @@
             <li><a href="#sections--section-image-left">Section image left</a></li>
             <li><a href="#sections--section-image-right">Section image right</a></li>
             <li><a href="#sections--section-product">Section product</a></li>
+            <li><a href="#sections--text-insert">Text insert</a></li>
         </ol>
       </nav>
   </div>
@@ -2330,6 +2331,7 @@
 <li>Section Product is used for the product details page</li>
 <li>Section highlight is used for non body copy content breaks</li>
 <li>Section header is used to introduce pages with big text and no image banner</li>
+<li>Text insert is used for additional body copy that isn&#39;t necessarily main copy</li>
 </ul>
 </div>
     </div>
@@ -2520,8 +2522,8 @@
                 </i>
               </button>
               <code><pre id="sections-section-header-code-sample-copy-chunk">&lt;div class="intro-banner push-0 pad-b"&gt;
-  &lt;h1 class="tena text-center push-0 pad-t-2 island">&lt;span>Text Banner!&lt;/span>&lt;/h1>
-  &lt;p class="text-center pad-t">This an intro about the section you&apos;re about to read.&lt;/p>
+  &lt;h1 class="tena text-center push-0 pad-t-2 island">&lt;span class="text-banner">Text Banner!&lt;/span>&lt;/h1>
+  &lt;p class="text-center pad-t text-intro">This an intro about the section you&apos;re about to read.&lt;/p>
 &lt;/div>
 </pre></code>
             </div>
@@ -2584,8 +2586,8 @@
                 </i>
               </button>
               <code><pre id="sections-section-highlight-code-sample-copy-chunk">&lt;section class="wrapper section-2 section-highlight"&gt;
-  &lt;h2 class="island">&lt;span>Section header highlight&lt;/span>&lt;/h2>
-  &lt;p class="gutter">Here is some sample text&lt;/p>
+  &lt;h2 class="island">&lt;span class="highlight">Section header highlight&lt;/span>&lt;/h2>
+  &lt;p class="gutter highlight-text">Here is some sample text&lt;/p>
 &lt;/section>
 </pre></code>
             </div>
@@ -2792,26 +2794,90 @@
   &lt;div class="unit xs-1 m-2-3">
     &lt;div class="grid">
       &lt;div class="unit xs-1">
-        &lt;h2 class="island yotta">&lt;span class="pad-b">Section header 1&lt;/span>&lt;/h2>
+        &lt;h2 class="island yotta">&lt;span class="pad-b product-name">Product&lt;/span>&lt;/h2>
       &lt;/div>
       &lt;div class="unit xs-1 l-1-2">
         &lt;p class="gutter description">A brief description of the animal goes here.&lt;/p>
       &lt;/div>
       &lt;div class="unit xs-1 l-1-2">
         &lt;dl class="gutter grid push">
-          &lt;dt class="unit xs-1 m-1-2 bold">Species: &lt;/dt>
-          &lt;dd class="unit xs-1 m-1-2 species push-0">Text&lt;/dd>
-          &lt;dt class="unit xs-1 m-1-2 bold">Weight: &lt;/dt>
-          &lt;dd class="unit xs-1 m-1-2 weight push-0">Weight Range&lt;/dd>
-          &lt;dt class="unit xs-1 m-1-2 bold">Size: &lt;/dt>
-          &lt;dd class="unit xs-1 m-1-2 size push-0">Size Range&lt;/dd>
-          &lt;dt class="unit xs-1 m-1-2 bold">Intelligence: &lt;/dt>
-          &lt;dd class="unit xs-1 m-1-2 size push-0">IQ Range&lt;/dd>
+          &lt;dt class="unit xs-1 m-1-4 l-1-2 bold">Species: &lt;/dt>
+          &lt;dd class="unit xs-1 m-1-4 l-1-2 species push-0">Text&lt;/dd>
+          &lt;dt class="unit xs-1 m-1-4 l-1-2 bold">Weight: &lt;/dt>
+          &lt;dd class="unit xs-1 m-1-4 l-1-2 weight push-0">Range&lt;/dd>
+          &lt;dt class="unit xs-1 m-1-4 l-1-2 bold">Size: &lt;/dt>
+          &lt;dd class="unit xs-1 m-1-4 l-1-2 size push-0">Range&lt;/dd>
+          &lt;dt class="unit xs-1 m-1-4 l-1-2 bold">Intellect: &lt;/dt>
+          &lt;dd class="unit xs-1 m-1-4 l-1-2 size push-0">Range&lt;/dd>
         &lt;/dl>
       &lt;/div>
     &lt;/div>
 
   &lt;/div>
+&lt;/section>
+</pre></code>
+            </div>
+          </div>
+      </div>
+    </div>
+    <div class="pattern-details " id="sections--text-insert" style="">
+        <div class="pattern-toolbar pattern-toolbar-inner relative gutter pad-t-1-4 pad-b-1-4" style="">
+          <h3 class="pattern-name tera push-1-8">Text insert</h3>
+            <ul class="list-group-inline gutter absolute pin-cr">
+                <li>
+                  <button class="center-contents-vertical pattern-tool-btn pattern-code-btn" title="Show code" aria-label="Show code" aria-pressed="false" aria-controls="sections-text-insert-code-sample">
+                    <i class="icon i-18">
+                      <svg><use xlink:href="#icon-code"></use></svg>
+                    </i>
+                  </button>
+                </li>
+                <li>
+                  <button class="center-contents-vertical pattern-tool-btn pattern-include-btn" title="Copy include" aria-label="Copy include" data-copy-include-pattern="sections/text-insert" hidden>
+                    <i class="icon i-18">
+                      <svg><use xlink:href="#icon-copy"></use></svg>
+                    </i>
+                  </button>
+                </li>
+                <li>
+                  <a class="btn center-contents-vertical pattern-tool-btn pattern-pop-btn" href="patterns/sections/text-insert.html" target="_blank" title="Open pattern in a new tab" aria-label="Open pattern in a new tab">
+                    <i class="icon i-18">
+                      <svg><use xlink:href="#icon-pop-out"></use></svg>
+                    </i>
+                  </a>
+                </li>
+            </ul>
+        </div>
+
+      <div class="pattern-examples pad-t-1-2 pad-b-1-2" style="">
+        <div class="gutter-2 pad-t-1-2 pad-b-1-2">
+          <div class="resizeable-pattern relative" style="">
+            <i class="icon i-32 patternbot-iframe-loading-gears absolute pin-c"><svg><use xlink:href="#patternbot-iframe-loading-gears"></use></svg></i>
+            <iframe data-src="patterns/sections/text-insert.html" scrolling="no" data-inject-css=" " ></iframe>
+              <div class="resizeable-pattern-length">
+                <div class="resize-handle resize-handle-left" style="">
+                  <i class="icon i-18">
+                    <svg><use xlink:href="#icon-resize-handle" /></svg>
+                  </i>
+                </div>
+                <div class="resize-handle resize-handle-right" style="">
+                  <i class="icon i-18">
+                    <svg><use xlink:href="#icon-resize-handle" /></svg>
+                  </i>
+                </div>
+              </div>
+          </div>
+        </div>
+
+          <div class="pattern-code-wrap gutter pad-t-1-2 pad-b-1-2" hidden aria-hidden="true" id="sections-text-insert-code-sample" tabindex="-1">
+            <div class="pattern-code relative milli island-1-2" style="">
+              <button class="center-contents-vertical pattern-tool-btn pattern-copy-btn absolute pin-tr" title="Copy code" aria-label="Copy code" data-clipboard-target="#sections-text-insert-code-sample-copy-chunk" hidden>
+                <i class="icon i-18">
+                  <svg><use xlink:href="#icon-copy"></use></svg>
+                </i>
+              </button>
+              <code><pre id="sections-text-insert-code-sample-copy-chunk">&lt;section class="wrapper section-1 island-1-4"&gt;
+  &lt;h2 class="island-1-4 giga push-1-2">&lt;span class="pad-b-1-4 small-header">Small header&lt;/span>&lt;/h2>
+  &lt;p class="gutter-1-4 small-header-text">Here is some sample text&lt;/p>
 &lt;/section>
 </pre></code>
             </div>
