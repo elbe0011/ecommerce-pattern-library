@@ -1,0 +1,16 @@
+.product-heading,
+.product-body {
+  color: var(--color-primary);
+}
+
+.product-button {
+  background-color: var(--color-primary);
+  color: white;
+}
+
+.product-image {
+  background-image: url(../../images/doggo.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  }

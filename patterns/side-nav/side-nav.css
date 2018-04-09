@@ -1,0 +1,10 @@
+.side-nav {
+  background-color: var(--color-secondary);
+  color: white;
+  position: fixed;
+  top: 25%;
+}
+
+.side-nav-header {
+  color: white;
+}

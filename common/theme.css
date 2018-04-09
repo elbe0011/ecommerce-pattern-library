@@ -7,8 +7,38 @@
   --color-neutral-beige: #e2e2e2;
   --font-primary: "Lato", arial, sans-serif;
   --font-secondary: "PT serif", serif;
+  --border-radius: 20px;
+  --border-width: 3px;
+  --border-circle: 100px;
+  --transition: all .20s ease-in-out;
+  --border: var(--border-style) var(--border-width) var(--border-radius);
 }
 
 html {
   font-family: var(--font-primary);
+}
+
+h1, h3, h5 {
+  color: var(--color-primary-light);
+}
+
+p {
+  font-family: var(--font-secondary);
+}
+
+blockquote, q {
+  font-style: italic;
+}
+
+a {
+  color: var(--color-secondary);
+}
+
+dt, ol li::before {
+  font-weight: bold;
+  font-family: var(--font-secondary)
+}
+
+mark {
+  background-color: var(--color-secondary);
 }

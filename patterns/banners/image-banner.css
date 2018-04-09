@@ -1,0 +1,11 @@
+html {
+  color: var(--color-primary-light);
+}
+
+.transparent {
+  background-color: rgba(0, 0, 0, .5);
+}
+
+.banner {
+  z-index: -999;
+}

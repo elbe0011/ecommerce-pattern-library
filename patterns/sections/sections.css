@@ -1,0 +1,27 @@
+.intro-banner {
+  color: white;
+  background-color: var(--color-primary-light);
+}
+
+h1 {
+  color: white;
+  border-bottom: var(--border-width) solid;
+}
+
+.section-1 {
+  background-color: var(--color-neutral-beige);
+  height: 20rem;
+}
+
+.section-1 span {
+  border-bottom: var(--border-width) solid;
+}
+
+.section-2 {
+  height: 20rem;
+}
+
+.section-2 h2 {
+  color: white;
+  background-color: var(--color-secondary);
+}
