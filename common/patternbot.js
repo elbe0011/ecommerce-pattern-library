@@ -388,9 +388,9 @@ const patternBotIncludes = function (manifest) {
 /** 
  * Patternbot library manifest
  * /Users/Glenis/OneDrive - Algonquin College/Semester 4/Web Dev 4/ecommerce-pattern-library
- * @version 1523254128756
+ * @version 1523265375682
  */
-const patternManifest_1523254128756 = {
+const patternManifest_1523265375682 = {
   "commonInfo": {
     "modulifier": [
       "responsive",
@@ -641,9 +641,19 @@ const patternManifest_1523254128756 = {
     ],
     "pages": [
       {
+        "name": "checkout.html",
+        "namePretty": "Checkout",
+        "path": "/Users/Glenis/OneDrive - Algonquin College/Semester 4/Web Dev 4/ecommerce-pattern-library/pages/checkout.html"
+      },
+      {
         "name": "home.html",
         "namePretty": "Home",
         "path": "/Users/Glenis/OneDrive - Algonquin College/Semester 4/Web Dev 4/ecommerce-pattern-library/pages/home.html"
+      },
+      {
+        "name": "product-list.html",
+        "namePretty": "Product list",
+        "path": "/Users/Glenis/OneDrive - Algonquin College/Semester 4/Web Dev 4/ecommerce-pattern-library/pages/product-list.html"
       }
     ]
   },
@@ -666,7 +676,14 @@ const patternManifest_1523254128756 = {
           "localPath": "patterns/banners/straight-banner.html"
         }
       ],
-      "md": [],
+      "md": [
+        {
+          "name": "readme",
+          "namePretty": "Readme",
+          "path": "/Users/Glenis/OneDrive - Algonquin College/Semester 4/Web Dev 4/ecommerce-pattern-library/patterns/banners/README.md",
+          "localPath": "patterns/banners/README.md"
+        }
+      ],
       "css": [
         {
           "name": "image-banner",
@@ -681,6 +698,24 @@ const patternManifest_1523254128756 = {
       "namePretty": "Buttons",
       "path": "/Users/Glenis/OneDrive - Algonquin College/Semester 4/Web Dev 4/ecommerce-pattern-library/patterns/buttons",
       "html": [
+        {
+          "name": "button-ghost",
+          "namePretty": "Button ghost",
+          "path": "/Users/Glenis/OneDrive - Algonquin College/Semester 4/Web Dev 4/ecommerce-pattern-library/patterns/buttons/button-ghost.html",
+          "localPath": "patterns/buttons/button-ghost.html"
+        },
+        {
+          "name": "button-light",
+          "namePretty": "Button light",
+          "path": "/Users/Glenis/OneDrive - Algonquin College/Semester 4/Web Dev 4/ecommerce-pattern-library/patterns/buttons/button-light.html",
+          "localPath": "patterns/buttons/button-light.html"
+        },
+        {
+          "name": "button-standard",
+          "namePretty": "Button standard",
+          "path": "/Users/Glenis/OneDrive - Algonquin College/Semester 4/Web Dev 4/ecommerce-pattern-library/patterns/buttons/button-standard.html",
+          "localPath": "patterns/buttons/button-standard.html"
+        },
         {
           "name": "buttons",
           "namePretty": "Buttons",
@@ -735,7 +770,14 @@ const patternManifest_1523254128756 = {
           "localPath": "patterns/cards/product-card.html"
         }
       ],
-      "md": [],
+      "md": [
+        {
+          "name": "readme",
+          "namePretty": "Readme",
+          "path": "/Users/Glenis/OneDrive - Algonquin College/Semester 4/Web Dev 4/ecommerce-pattern-library/patterns/cards/README.md",
+          "localPath": "patterns/cards/README.md"
+        }
+      ],
       "css": [
         {
           "name": "button-card",
@@ -822,7 +864,14 @@ const patternManifest_1523254128756 = {
           "localPath": "patterns/forms/text-input.html"
         }
       ],
-      "md": [],
+      "md": [
+        {
+          "name": "readme",
+          "namePretty": "Readme",
+          "path": "/Users/Glenis/OneDrive - Algonquin College/Semester 4/Web Dev 4/ecommerce-pattern-library/patterns/forms/README.md",
+          "localPath": "patterns/forms/README.md"
+        }
+      ],
       "css": [
         {
           "name": "input-field",
@@ -889,13 +938,56 @@ const patternManifest_1523254128756 = {
       "path": "/Users/Glenis/OneDrive - Algonquin College/Semester 4/Web Dev 4/ecommerce-pattern-library/patterns/sections",
       "html": [
         {
-          "name": "sections",
-          "namePretty": "Sections",
-          "path": "/Users/Glenis/OneDrive - Algonquin College/Semester 4/Web Dev 4/ecommerce-pattern-library/patterns/sections/sections.html",
-          "localPath": "patterns/sections/sections.html"
+          "name": "section-1",
+          "namePretty": "Section 1",
+          "path": "/Users/Glenis/OneDrive - Algonquin College/Semester 4/Web Dev 4/ecommerce-pattern-library/patterns/sections/section-1.html",
+          "localPath": "patterns/sections/section-1.html"
+        },
+        {
+          "name": "section-2",
+          "namePretty": "Section 2",
+          "path": "/Users/Glenis/OneDrive - Algonquin College/Semester 4/Web Dev 4/ecommerce-pattern-library/patterns/sections/section-2.html",
+          "localPath": "patterns/sections/section-2.html"
+        },
+        {
+          "name": "section-header",
+          "namePretty": "Section header",
+          "path": "/Users/Glenis/OneDrive - Algonquin College/Semester 4/Web Dev 4/ecommerce-pattern-library/patterns/sections/section-header.html",
+          "localPath": "patterns/sections/section-header.html"
+        },
+        {
+          "name": "section-highlight",
+          "namePretty": "Section highlight",
+          "path": "/Users/Glenis/OneDrive - Algonquin College/Semester 4/Web Dev 4/ecommerce-pattern-library/patterns/sections/section-highlight.html",
+          "localPath": "patterns/sections/section-highlight.html"
+        },
+        {
+          "name": "section-image-left",
+          "namePretty": "Section image left",
+          "path": "/Users/Glenis/OneDrive - Algonquin College/Semester 4/Web Dev 4/ecommerce-pattern-library/patterns/sections/section-image-left.html",
+          "localPath": "patterns/sections/section-image-left.html"
+        },
+        {
+          "name": "section-image-right",
+          "namePretty": "Section image right",
+          "path": "/Users/Glenis/OneDrive - Algonquin College/Semester 4/Web Dev 4/ecommerce-pattern-library/patterns/sections/section-image-right.html",
+          "localPath": "patterns/sections/section-image-right.html"
+        },
+        {
+          "name": "section-product",
+          "namePretty": "Section product",
+          "path": "/Users/Glenis/OneDrive - Algonquin College/Semester 4/Web Dev 4/ecommerce-pattern-library/patterns/sections/section-product.html",
+          "localPath": "patterns/sections/section-product.html"
         }
       ],
-      "md": [],
+      "md": [
+        {
+          "name": "readme",
+          "namePretty": "Readme",
+          "path": "/Users/Glenis/OneDrive - Algonquin College/Semester 4/Web Dev 4/ecommerce-pattern-library/patterns/sections/README.md",
+          "localPath": "patterns/sections/README.md"
+        }
+      ],
       "css": [
         {
           "name": "sections",
@@ -917,7 +1009,14 @@ const patternManifest_1523254128756 = {
           "localPath": "patterns/side-nav/side-nav.html"
         }
       ],
-      "md": [],
+      "md": [
+        {
+          "name": "readme",
+          "namePretty": "Readme",
+          "path": "/Users/Glenis/OneDrive - Algonquin College/Semester 4/Web Dev 4/ecommerce-pattern-library/patterns/side-nav/README.md",
+          "localPath": "patterns/side-nav/README.md"
+        }
+      ],
       "css": [
         {
           "name": "side-nav",
@@ -948,5 +1047,5 @@ const patternManifest_1523254128756 = {
   }
 };
 
-patternBotIncludes(patternManifest_1523254128756);
+patternBotIncludes(patternManifest_1523265375682);
 }());

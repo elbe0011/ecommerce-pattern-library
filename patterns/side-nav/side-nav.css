@@ -3,8 +3,17 @@
   color: white;
   position: fixed;
   top: 25%;
+  visibility: hidden;
 }
 
 .side-nav-header {
   color: white;
+}
+
+@media only screen and (min-width: 85em) {
+
+  .side-nav {
+    visibility: visible;
+  }
+
 }

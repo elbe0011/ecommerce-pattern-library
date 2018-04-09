@@ -10,7 +10,10 @@ h1 {
 
 .section-1 {
   background-color: var(--color-neutral-beige);
-  height: 20rem;
+}
+
+.color-2 {
+  background-color: var(--color-accent-gold);
 }
 
 .section-1 span {
@@ -18,10 +21,18 @@ h1 {
 }
 
 .section-2 {
-  height: 20rem;
+
 }
 
 .section-2 h2 {
   color: white;
   background-color: var(--color-secondary);
+}
+
+.section-highlight p{
+  color: var(--color-primary);
+}
+
+html {
+  background-color: var(--color-neutral-beige);
 }
