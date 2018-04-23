@@ -388,9 +388,9 @@ const patternBotIncludes = function (manifest) {
 /** 
  * Patternbot library manifest
  * /Users/Glenis/OneDrive - Algonquin College/Semester 4/Web Dev 4/ecommerce-pattern-library
- * @version 1523271023579
+ * @version 1523982255332
  */
-const patternManifest_1523271023579 = {
+const patternManifest_1523982255332 = {
   "commonInfo": {
     "modulifier": [
       "responsive",
@@ -711,6 +711,18 @@ const patternManifest_1523271023579 = {
           "localPath": "patterns/buttons/button-light.html"
         },
         {
+          "name": "button-next",
+          "namePretty": "Button next",
+          "path": "/Users/Glenis/OneDrive - Algonquin College/Semester 4/Web Dev 4/ecommerce-pattern-library/patterns/buttons/button-next.html",
+          "localPath": "patterns/buttons/button-next.html"
+        },
+        {
+          "name": "button-previous",
+          "namePretty": "Button previous",
+          "path": "/Users/Glenis/OneDrive - Algonquin College/Semester 4/Web Dev 4/ecommerce-pattern-library/patterns/buttons/button-previous.html",
+          "localPath": "patterns/buttons/button-previous.html"
+        },
+        {
           "name": "button-standard",
           "namePretty": "Button standard",
           "path": "/Users/Glenis/OneDrive - Algonquin College/Semester 4/Web Dev 4/ecommerce-pattern-library/patterns/buttons/button-standard.html",
@@ -749,25 +761,37 @@ const patternManifest_1523271023579 = {
           "name": "button-card",
           "namePretty": "Button card",
           "path": "/Users/Glenis/OneDrive - Algonquin College/Semester 4/Web Dev 4/ecommerce-pattern-library/patterns/cards/button-card.html",
-          "localPath": "patterns/cards/button-card.html"
+          "localPath": "patterns/cards/button-card.html",
+          "readme": {
+            "width": 400
+          }
         },
         {
           "name": "image-card",
           "namePretty": "Image card",
           "path": "/Users/Glenis/OneDrive - Algonquin College/Semester 4/Web Dev 4/ecommerce-pattern-library/patterns/cards/image-card.html",
-          "localPath": "patterns/cards/image-card.html"
+          "localPath": "patterns/cards/image-card.html",
+          "readme": {
+            "width": 400
+          }
         },
         {
           "name": "overlap-card",
           "namePretty": "Overlap card",
           "path": "/Users/Glenis/OneDrive - Algonquin College/Semester 4/Web Dev 4/ecommerce-pattern-library/patterns/cards/overlap-card.html",
-          "localPath": "patterns/cards/overlap-card.html"
+          "localPath": "patterns/cards/overlap-card.html",
+          "readme": {
+            "width": 400
+          }
         },
         {
           "name": "product-card",
           "namePretty": "Product card",
           "path": "/Users/Glenis/OneDrive - Algonquin College/Semester 4/Web Dev 4/ecommerce-pattern-library/patterns/cards/product-card.html",
-          "localPath": "patterns/cards/product-card.html"
+          "localPath": "patterns/cards/product-card.html",
+          "readme": {
+            "width": 400
+          }
         }
       ],
       "md": [
@@ -1053,5 +1077,5 @@ const patternManifest_1523271023579 = {
   }
 };
 
-patternBotIncludes(patternManifest_1523271023579);
+patternBotIncludes(patternManifest_1523982255332);
 }());
