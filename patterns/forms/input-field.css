@@ -1,12 +1,11 @@
 .input-field {
   color: white;
-  background-color: var(--color-primary-light);
-  border-radius: var(--border-radius);
+  background-color: var(--color-primary);
   transition: var(--transition);
   border-style: solid;
   border-width: var(--border-width);
   transition: var(--transition);
-  border-color: var(--color-primary-light);
+  border-color: var(--color-primary);
 }
 
 .input-field:focus,

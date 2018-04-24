@@ -1,6 +1,3 @@
-/* Tiny reset thingy */
-body,html{margin:0;padding:0;}
-
 .wrapped {
   /* The height needs to be set to a fixed value for the effect to work.
    * 100vh is the full height of the viewport. */
@@ -13,35 +10,38 @@ body,html{margin:0;padding:0;}
   perspective: 2px;
 }
 
-.section {
+.parallax-section {
   /* Needed for children to be absolutely positioned relative to the parent. */
   position: relative;
   /* The height of the container. Must be set, but it doesn't really matter what the value is. */
-  height: 20rem;
+  height: 15rem;
 
   /* For text formatting. */
   display: flex;
   align-items: center;
   justify-content: center;
+  /* color: white; */
+}
+
+.parallax h1{
   color: white;
-  text-shadow: 0 0 5px #000;
 }
 
 .parallax::after {
   /* Display and position the pseudo-element */
   content: " ";
   position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
+  top: -10rem;
+  right: -10rem;
+  bottom: 0rem;
+  left: -10rem;
 
   /* Move the pseudo-element back away from the camera,
    * then scale it back up to fill the viewport.
    * Because the pseudo-element is further away, it appears to move more slowly, like in real life. */
   transform: translateZ(-2px) scale(2.1);
   /* Force the background image to fill the whole element. */
-  background-position: top;
+  background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
   /* Keep the image from overlapping sibling elements. */
@@ -51,7 +51,7 @@ body,html{margin:0;padding:0;}
 /* The styling for the static div. */
 .static {
   background: white;
-  height: 50rem;
+  height: 30rem;
 }
 
 /* Sets the actual background images to adorable kitties. This part is crucial. */

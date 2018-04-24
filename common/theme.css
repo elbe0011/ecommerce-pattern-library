@@ -1,7 +1,7 @@
 :root {
   --color-primary: #1f333a;
-  --color-primary-light: #91b6bc;
-  --color-secondary: #94cc84;
+  --color-primary-light: #19a69c;
+  --color-secondary: #94cb87;
   --color-accent-black: black;
   --color-accent-gold: #c4a57e;
   --color-neutral-beige: #e2e2e2;
@@ -12,6 +12,7 @@
   --border-circle: 100px;
   --transition: all .20s ease-in-out;
   --border: var(--border-style) var(--border-width) var(--border-radius);
+  --gradient: linear-gradient(to right, var(--color-primary-light) , var(--color-secondary));
 }
 
 html {

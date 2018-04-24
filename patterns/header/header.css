@@ -9,3 +9,7 @@ a {
 .logo-text {
   color: var(--color-primary);
 }
+
+.header-logo:hover .logo-text {
+  color: var(--color-primary-light);
+}

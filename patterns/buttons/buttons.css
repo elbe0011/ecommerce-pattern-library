@@ -1,10 +1,10 @@
 .btn {
-  background-color: var(--color-primary);
-  border-color: var(--color-primary);
+  background-color: black;
+  border-color: black;
+
+  border-radius: 0;
 
   color: #fff;
-
-  transition: all .5s;
 }
 
 .btn-light {
@@ -29,4 +29,10 @@
   color: var(--color-secondary);
   background-color: white;
   border-color: white;
+}
+
+.btn:hover {
+  background: var(--gradient);
+  border-color: var(--color-primary-light);
+  color: white;
 }

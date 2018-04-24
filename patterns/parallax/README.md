@@ -1,0 +1,4 @@
+---
+parallax:
+  height: 900
+---

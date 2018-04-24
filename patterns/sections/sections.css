@@ -3,13 +3,16 @@
   background-color: var(--color-primary-light);
 }
 
-h1 {
-  color: white;
-  border-bottom: var(--border-width) solid;
+.bg-list {
+  background: url(../../images/adopt-banner.jpg);
+  background-size: cover;
+  background-position: center;
 }
 
-.section-1 {
-  background-color: var(--color-neutral-beige);
+.bg-checkout {
+  background: url(../../images/form-banner.jpg);
+  background-size: cover;
+  background-position: center;
 }
 
 .color-2 {
@@ -33,6 +36,11 @@ h1 {
   color: var(--color-primary);
 }
 
-html {
-  background-color: var(--color-neutral-beige);
+.text-banner {
+  color: white;
+}
+
+.section-image-left,
+.section-image-right {
+  color: var(--color-primary);
 }

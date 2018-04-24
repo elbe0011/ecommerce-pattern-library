@@ -1,6 +1,5 @@
 .card {
   color: var(--color-primary);
-  border-radius: var(--border-radius);
   transition: var(--transition);
   border-style: solid;
   border-width: var(--border-width);
@@ -17,20 +16,15 @@
   transition: var(--transition);
   color: white;
   border-color: var(--color-primary-light);
-  background-color: var(--color-primary-light);
+  background: var(--gradient);
   border-style: solid;
-  border-radius: var(--border-radius);
   border-width: var(--border-width);
 }
 
 .card:hover .card-button {
   color: var(--color-primary);
   border-color: var(--color-primary);
-  background-color: white;
-}
-
-img {
-  border-radius: var(--border-radius);
+  background: white;
 }
 
 @media only screen and (min-width: 38em) {

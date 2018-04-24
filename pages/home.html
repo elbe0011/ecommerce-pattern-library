@@ -10,15 +10,35 @@
 
   <script type="application/json" data-pattern="header/header"></script>
 
-  <script type="application/json" data-pattern="banners/image-banner"></script>
+  <script type="application/json" data-pattern="banners/image-banner">
+    {
+      "p": "Your Dream Dog is a click away!",
+      "a": "d.n.a. design now"
+    }
+  </script>
 
   <main class="max-length pad-t-1-2 pad-b-1-2" role="main" id="main">
     <div class="grid">
       <div class="unit xs-1 m-1-2 unit-content-distribute">
-        <script type="application/json" data-pattern="cards/overlap-card"></script>
+        <script type="application/json" data-pattern="cards/overlap-card">
+          {
+            "a[href]": "../../pages/product-list.html",
+            "use[xlink:href]": "../../images/icons.svg#icon-paw",
+            "h2": "Variety",
+            "p": "Look at which animals you can design",
+            "h3": "List"
+          }
+        </script>
       </div>
       <div class="unit xs-1 m-1-2 unit-content-distribute">
-        <script type="application/json" data-pattern="cards/overlap-card"></script>
+        <script type="application/json" data-pattern="cards/overlap-card">
+          {
+            "a[href]": "../../pages/stories.html",
+            "h2": "Success",
+            "p": "Read up about what went right",
+            "h3": "Stories"
+          }
+        </script>
       </div>
     </div>
   </main>

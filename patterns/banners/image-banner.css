@@ -5,3 +5,8 @@
 .banner {
   z-index: -999;
 }
+
+.banner,
+.banner h1 {
+  color: white;
+}

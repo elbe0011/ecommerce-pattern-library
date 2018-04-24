@@ -1,17 +1,17 @@
 .product-heading,
 .product-body {
   color: var(--color-primary);
-  transition: color .5s;
 }
 
 .product-button {
-  background-color: var(--color-primary);
+  background: var(--color-primary);
   color: white;
   transition: all .5s;
 }
 
 .product-card:hover .product-button {
-  background-color: var(--color-secondary);
+  background: var(--gradient);
+  transition: all .5s;
 }
 .product-card:hover .product-heading {
   color: var(--color-secondary);
